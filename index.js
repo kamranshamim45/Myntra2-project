@@ -36,7 +36,7 @@ function displayItemsOnHomePage(){
   items.forEach(item => {   
     innerHTML += `
       <div class="item-container">
-        <img class="item-image" src="${item.image}" alt="item image">
+        <img class="bag-item-img" src="categories/${item.image}">
         <div class="rating">
           ${item.rating.stars}⭐ | ${item.rating.count}
         </div>
